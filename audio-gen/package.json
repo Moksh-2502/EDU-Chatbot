@@ -1,0 +1,18 @@
+{
+  "name": "multiplication-audio-generator",
+  "version": "1.0.0",
+  "description": "Generate multiplication table audio files using ElevenLabs",
+  "main": "generate-audio.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-audio.js",
+    "generate-corrections": "node generate-correction-audio.js",
+    "generate-tutorial": "node generate-tutorial-audio.js",
+    "convert": "node convert-mp3-to-wav.js"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "contextFolder": ".context",
+  "specs": [],
+  "pullRequestTemplate": "{{ ticketUrl }}",
+  "commandConfigurations": {
+    "release-notes": {
+      "defaultInputs": {
+        "chatSpace": "AI-First Game Dev",
+        "workflowName": "Deploy Infra Prod"
+      }
+    }
+  },
+  "demoFolder": "~/Videos/Demos"
+}

@@ -1,0 +1,14 @@
+{
+  "targetStepType": "Jump",
+  "sequenceName": "Force Jump Movement",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrafficCone",
+      "obstaclePrefabAddress": "ObstacleRoadworksCone",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 15.0,
+      "groupCount": 2,
+      "groupSeparation": 8.0
+    }
+  ]
+} 

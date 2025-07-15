@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Holiday_Spirit
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: c6d17efc-f3ea-452b-9c86-334c4999e161
+  <Name>k__BackingField: Holiday Spirit
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 4
+  <Icon>k__BackingField: {fileID: 21300000, guid: 6b56006feecfa9848a2d4e3c8af9dde9,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: a4b57293eefe23940b63507826fe5ae9
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

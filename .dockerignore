@@ -1,0 +1,63 @@
+# Exclude version control
+.git
+.gitignore
+
+# Node modules (will be installed in the container)
+node_modules
+
+# Build outputs
+.next
+out
+
+# Developer tools
+.vscode
+.idea
+
+# Deploy directory
+deploy/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# Cache
+.npm
+.eslintcache
+.pnpm-store
+
+# Test coverage
+coverage
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Unity project files (to avoid locked temp files during deployment)
+game_skeletons/*/Temp/
+game_skeletons/*/Library/
+game_skeletons/*/Logs/
+game_skeletons/*/obj/
+game_skeletons/*/UserSettings/
+game_skeletons/*/.vs/
+game_skeletons/*/.vsconfig
+game_skeletons/*/Assembly-CSharp.csproj
+game_skeletons/*/Assembly-CSharp-Editor.csproj
+game_skeletons/*/*.sln
+game_skeletons/*/*.csproj
+game_skeletons/*/*.suo
+game_skeletons/*/*.user
+game_skeletons/*/*.unityproj
+game_skeletons/*/*.pidb
+game_skeletons/*/*.booproj
+game_skeletons/*/*.svd
+game_skeletons/*/ExportedObj/
+game_skeletons/*/.consulo/
+game_skeletons/*/UpgradeLog*.XML
+game_skeletons/*/UpgradeLog*.htm 

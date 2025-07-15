@@ -1,0 +1,14 @@
+{
+  "targetStepType": "SwipeRight",
+  "sequenceName": "Force Right Lane Movement",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrashCan",
+      "obstaclePrefabAddress": "ObstacleBin",
+      "blockedLanes": [0, 1],
+      "spawnDistance": 15.0,
+      "groupCount": 2,
+      "groupSeparation": 6.0
+    }
+  ]
+} 

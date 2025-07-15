@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items-Plushies
+  m_EditorClassIdentifier: 
+  m_GroupName: Items-Plushies
+  m_GUID: 9e9446b969ead7b4096ca011fa6ff7ae
+  m_SerializeEntries:
+  - m_GUID: 03494fbaed02ec2428d49d0e015737a5
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Elephant_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15d839a5ae723544283a87df3b18a0b4
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Lioness_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 209a1daf58c08304993642d5f2ef5216
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Lion_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31cc7c92f7356824e87e6b9709db6646
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Dino_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 785d46821b54aa449903a83dc4db667a
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Pig_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 788e901f4d126444d8948799afff83d6
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Rabbit_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a511d32ad8f429f4c9066f43088e8d57
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Monster_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c455f696b37b87749b250d2e6e61f07e
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Dino_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fafa261cc9d3479409e1305fcb336f97
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Unicorn_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb829dc893d53a04bbc4890be27e0500
+    m_Address: Assets/Bundles/Items/Plushies/SM_Prop_Plush_Bear_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 56397d1c3db7c9c469b820a3d5bdbc0d, type: 2}
+    - {fileID: 11400000, guid: ec46abcc75a6b70488e132c6633a759e, type: 2}

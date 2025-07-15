@@ -1,0 +1,23 @@
+{
+    "name": "com.yourcompany.unity-react-bridge",
+    "version": "1.0.0",
+    "displayName": "Unity React Bridge",
+    "description": "A communication bridge between Unity WebGL games and React applications with graceful degradation support.",
+    "unity": "2020.3",
+    "unityRelease": "0f1",
+    "documentationUrl": "https://github.com/yourcompany/unity-react-bridge",
+    "changelogUrl": "https://github.com/yourcompany/unity-react-bridge/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/yourcompany/unity-react-bridge/blob/main/LICENSE",
+    "keywords": [
+        "react",
+        "webgl",
+        "communication",
+        "bridge",
+        "javascript"
+    ],
+    "author": {
+        "name": "Your Company",
+        "email": "contact@yourcompany.com",
+        "url": "https://yourcompany.com"
+    }
+}

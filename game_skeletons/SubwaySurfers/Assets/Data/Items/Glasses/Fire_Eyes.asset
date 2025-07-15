@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Fire_Eyes
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: a4981119-4ec1-4fb4-9bf4-7f438044bb13
+  <Name>k__BackingField: Fire Eyes
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 4
+  <Icon>k__BackingField: {fileID: 21300000, guid: 3b552e0a1025e32419fde450a195d2d3,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: 67835636c848cea4abab1acd6883f9c0
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

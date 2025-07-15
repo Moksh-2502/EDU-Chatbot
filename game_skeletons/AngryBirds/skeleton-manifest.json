@@ -1,0 +1,15 @@
+{
+  "template": "AngryBirds",
+  "description": "A physics-based game inspired by Angry Birds where players launch projectiles to destroy structures and hit targets. The game uses realistic physics for object collisions, gravity, and destruction.",
+  "version": "1.0.0",
+  "files": [
+    "game.js",
+    "index.html"
+  ],
+  "created": "2025-05-06T20:19:44.288Z",
+  "modifiable_file_names": [
+    "game.js",
+    "index.html",
+    "worker.js"
+  ]
+}

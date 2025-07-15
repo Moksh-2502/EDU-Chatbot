@@ -1,0 +1,7 @@
+{
+  "template": "JetpackJoyride",
+  "created": "2025-05-06T20:19:44.302Z",
+  "description": "A side scrolling 2D game like JetpackJoyride where players run through an endless runner game and learns multiplication facts through random questions throughout the game.",
+  "modifiable_file_names": [],
+  "copy_directory": "dist"
+}

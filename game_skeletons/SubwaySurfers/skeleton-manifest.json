@@ -1,0 +1,8 @@
+{
+  "template": "SubwaySurfers",
+  "created": "2025-05-06T20:19:44.302Z",
+  "originalTemplate": "Endless-Runner",
+  "description": "A forward moving 3D endless runner like subway surfers game, you can learn math multiplication facts through random questions throughout the game.",
+  "modifiable_file_names": [],
+  "copy_directory": "dist"
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Bag Round
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 2a0bd531-a8aa-41b6-a3b6-f3e8140782ab
+  <Name>k__BackingField: Round Bag
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 2
+  <Icon>k__BackingField: {fileID: 21300000, guid: 0c61d9d0472e4124f8c04bfd5b415a96,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: 6e91be69d23aa03458f61ae6f4d822bb
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

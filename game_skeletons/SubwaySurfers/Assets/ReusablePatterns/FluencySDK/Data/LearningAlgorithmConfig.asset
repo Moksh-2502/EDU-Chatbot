@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffe51acf8164b4cbe238ef4fde5962f, type: 3}
+  m_Name: LearningAlgorithmConfig
+  m_EditorClassIdentifier: 
+  <ConfigMode>k__BackingField: 0
+  <NormalConfig>k__BackingField:
+    <FactSetOrder>k__BackingField:
+    - 0-1
+    - 10
+    - 5
+    - 2
+    - 4
+    - 8
+    - 9
+    - 3
+    - 6
+    - 7
+    <MinQuestionInterval>k__BackingField: 2
+    <MaxQuestionInterval>k__BackingField: 8
+    <TimeToNextQuestion>k__BackingField: 2
+    <MaxFluencyTimer>k__BackingField: 12
+    <MinFluencyTimer>k__BackingField: 2.5
+    <MaxMultiplicationFactor>k__BackingField: 10
+    <FluencyBigTimer>k__BackingField: 5
+    <FluencySmallTimer>k__BackingField: 2.5
+    <AssessmentTimer>k__BackingField: 5
+    <MinQuestionIntervalSeconds>k__BackingField: 30
+    <IndividualPromotionThreshold>k__BackingField: 1
+    <AlwaysStartFresh>k__BackingField: 0
+    <PracticePromotionThreshold>k__BackingField: 2
+    <DemotionThreshold>k__BackingField: 2
+    <ReviewDelaysMinutes>k__BackingField:
+    - 1
+    - 2
+    - 4
+    <RepetitionDelaysDays>k__BackingField:
+    - 1
+    - 2
+    - 4
+    - 7
+    <MaxUnknownFacts>k__BackingField: 5
+    <UnknownFactWindowSeconds>k__BackingField: 20
+    <KnownFactMinRatio>k__BackingField: 0.66
+    <KnownFactMaxRatio>k__BackingField: 0.9
+    <RecentQuestionHistorySize>k__BackingField: 5
+  <SpeedRunConfig>k__BackingField:
+    <FactSetOrder>k__BackingField:
+    - 0-1
+    - 5
+    - 2
+    - 4
+    <MinQuestionInterval>k__BackingField: 2
+    <MaxQuestionInterval>k__BackingField: 8
+    <TimeToNextQuestion>k__BackingField: 1
+    <MaxFluencyTimer>k__BackingField: 12
+    <MinFluencyTimer>k__BackingField: 2.5
+    <MaxMultiplicationFactor>k__BackingField: 5
+    <FluencyBigTimer>k__BackingField: 5
+    <FluencySmallTimer>k__BackingField: 2.5
+    <AssessmentTimer>k__BackingField: 5
+    <MinQuestionIntervalSeconds>k__BackingField: 10
+    <IndividualPromotionThreshold>k__BackingField: 1
+    <AlwaysStartFresh>k__BackingField: 0
+    <PracticePromotionThreshold>k__BackingField: 1
+    <DemotionThreshold>k__BackingField: 1
+    <ReviewDelaysMinutes>k__BackingField:
+    - 1
+    - 2
+    <RepetitionDelaysDays>k__BackingField:
+    - 1
+    - 2
+    <MaxUnknownFacts>k__BackingField: 3
+    <UnknownFactWindowSeconds>k__BackingField: 10
+    <KnownFactMinRatio>k__BackingField: 0.66
+    <KnownFactMaxRatio>k__BackingField: 0.9
+    <RecentQuestionHistorySize>k__BackingField: 5

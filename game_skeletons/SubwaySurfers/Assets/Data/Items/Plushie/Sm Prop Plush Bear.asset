@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Sm Prop Plush Bear
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: a9535b93-bbb6-408a-93c4-9d986452aa84
+  <Name>k__BackingField: Plush Bear
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 3
+  <Icon>k__BackingField: {fileID: 21300000, guid: a228d3a54020b3b47ae9e93423c8fc60,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: fb829dc893d53a04bbc4890be27e0500
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

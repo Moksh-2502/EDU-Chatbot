@@ -1,0 +1,28 @@
+{
+  "name": "@ai-edu-chatbot/fluency-sdk",
+  "version": "1.0.0",
+  "description": "A reusable pattern for implementing math fluency practice in educational games",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-edu-chatbot/fluency-sdk"
+  },
+  "keywords": [
+    "education",
+    "math",
+    "fluency",
+    "multiplication",
+    "learning",
+    "games"
+  ],
+  "author": "AI Edu Chatbot",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  }
+}

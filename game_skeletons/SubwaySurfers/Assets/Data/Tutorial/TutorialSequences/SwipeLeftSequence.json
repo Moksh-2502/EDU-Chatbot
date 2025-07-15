@@ -1,0 +1,14 @@
+{
+  "targetStepType": "SwipeLeft",
+  "sequenceName": "Force Left Lane Movement",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrashCan",
+      "obstaclePrefabAddress": "ObstacleBin",
+      "blockedLanes": [1, 2],
+      "spawnDistance": 15.0,
+      "groupCount": 2,
+      "groupSeparation": 6.0
+    }
+  ]
+} 

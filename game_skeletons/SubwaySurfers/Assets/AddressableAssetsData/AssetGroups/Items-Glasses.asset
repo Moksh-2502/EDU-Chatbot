@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items-Glasses
+  m_EditorClassIdentifier: 
+  m_GroupName: Items-Glasses
+  m_GUID: fad1965dbaebd7547b9f8cc89d256d33
+  m_SerializeEntries:
+  - m_GUID: 04c0e6ace245ff14a9ba1d0acb570a5d
+    m_Address: Assets/Bundles/Items/Glasses/glasses9.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a18e26aa789cce40901da069154cc85
+    m_Address: Assets/Bundles/Items/Glasses/glasses23.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ea377baf2d16104dbcf4d33471681e5
+    m_Address: Assets/Bundles/Items/Glasses/glasses10.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32df4016abd62364a845a726d6a9dd2b
+    m_Address: Assets/Bundles/Items/Glasses/glasses12.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e9665f1cfebc84408f296dcf986a419
+    m_Address: Assets/Bundles/Items/Glasses/glasses27.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ffcc64cfc0300145938cf76de68a9f9
+    m_Address: Assets/Bundles/Items/Glasses/glasses1.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 553b9970ed288d24f904b325e90b27c6
+    m_Address: Assets/Bundles/Items/Glasses/glasses14.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56dd976f8e255204ca9c4aa823ccf0fd
+    m_Address: Assets/Bundles/Items/Glasses/glasses5.003.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67835636c848cea4abab1acd6883f9c0
+    m_Address: Assets/Bundles/Items/Glasses/glasses7.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 684753807126c46418b1686d5977ac5a
+    m_Address: Assets/Bundles/Items/Glasses/glasses19.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6970964074985ed42ade4a38c7f9ec20
+    m_Address: Assets/Bundles/Items/Glasses/glasses26.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 724b180b375f7424d8eac160773945a4
+    m_Address: Assets/Bundles/Items/Glasses/glasses3.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 731ab098e3b2a394e9fccd60e470ef21
+    m_Address: Assets/Bundles/Items/Glasses/glasses17.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74c0c34c895be5e4483bca40857cfd6c
+    m_Address: Assets/Bundles/Items/Glasses/glasses2.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 788dd5f5405877645b753ad53807ef58
+    m_Address: Assets/Bundles/Items/Glasses/glasses16.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 855b79cae992f1145985b36056c47233
+    m_Address: Assets/Bundles/Items/Glasses/glasses24.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cc0ed99205007f4cbeaa58fcc3e3998
+    m_Address: Assets/Bundles/Items/Glasses/glasses18.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94313d6fa9fb7a945875728db0fbd097
+    m_Address: Assets/Bundles/Items/Glasses/glasses29.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e77dfebc92dbc94a81a05479566f0ee
+    m_Address: Assets/Bundles/Items/Glasses/glasses11.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4b57293eefe23940b63507826fe5ae9
+    m_Address: Assets/Bundles/Items/Glasses/glasses20.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86204c8a8f7156478393151e4d3112d
+    m_Address: Assets/Bundles/Items/Glasses/glasses28.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac52b8310d14c3c4aa7bd4174210cacf
+    m_Address: Assets/Bundles/Items/Glasses/glasses13.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afe49ea0a89360b4094ba4d2ff7ffebb
+    m_Address: Assets/Bundles/Items/Glasses/glasses22.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e48e1e4e39d0e294889637631dc63b76
+    m_Address: Assets/Bundles/Items/Glasses/glasses15.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeec208dcf4088043820f0736a687711
+    m_Address: Assets/Bundles/Items/Glasses/glasses25.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f117cea06dfd6774f8f87cbc148559fa
+    m_Address: Assets/Bundles/Items/Glasses/glasses4.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f58542b40b4c43544a53d82012a50f29
+    m_Address: Assets/Bundles/Items/Glasses/glasses21.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f70cf2819d83ee34fa70979d69b25437
+    m_Address: Assets/Bundles/Items/Glasses/glasses8.001.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 81c123c1fddd1c141bad642ae113e317, type: 2}
+    - {fileID: 11400000, guid: 64a87fee732bf2741b487c73a122ccf1, type: 2}

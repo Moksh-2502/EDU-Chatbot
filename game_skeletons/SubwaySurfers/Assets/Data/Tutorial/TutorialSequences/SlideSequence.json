@@ -1,0 +1,14 @@
+{
+  "targetStepType": "Slide",
+  "sequenceName": "Force Slide Movement",
+  "obstacleGroups": [
+    {
+      "obstacleType": "HighBarrier",
+      "obstaclePrefabAddress": "ObstacleHighBarrier",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 15.0,
+      "groupCount": 2,
+      "groupSeparation": 8.0
+    }
+  ]
+} 

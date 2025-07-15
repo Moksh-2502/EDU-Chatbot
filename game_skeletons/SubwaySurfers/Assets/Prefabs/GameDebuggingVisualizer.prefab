@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &826076705926444460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4646635315151368481}
+  - component: {fileID: -5504108400472830980}
+  - component: {fileID: 9124827704411867767}
+  m_Layer: 0
+  m_Name: GameDebuggingVisualizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4646635315151368481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826076705926444460}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5504108400472830980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826076705926444460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d6d034941432e4a8a8d9c4e7d0d8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showDebugPanel: 0
+  toggleKey: 104
+  panelPosition: {x: 30, y: 30}
+  panelSize: {x: 400, y: 520}
+  activeTab: 2
+  contentPadding: 15
+  fontSize: 19
+  tabWidth: 95
+--- !u!114 &9124827704411867767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826076705926444460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81e7b3c8d4f2e047bcb3f9d7e8a1c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showHUD: 0
+  toggleKey: 283
+  padding: 50
+  fontSize: 20
+  headerFontSize: 24
+  leftPanelWidth: 400
+  overviewPanelHeight: 230
+  panelSpacing: 15

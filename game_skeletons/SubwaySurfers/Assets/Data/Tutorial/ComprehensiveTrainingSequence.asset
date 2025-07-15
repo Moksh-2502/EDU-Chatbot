@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f3f59a8ed5e7d4a95257af95b1063c, type: 3}
+  m_Name: ComprehensiveTrainingSequence
+  m_EditorClassIdentifier: 
+  targetStepType: 0
+  sequenceName: Comprehensive Movement Training
+  obstacleGroups:
+  - obstacleType: 0
+    obstaclePrefab:
+      m_AssetGUID: ObstacleBin
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 02000000
+    spawnDistance: 10
+    groupCount: 1
+    groupSeparation: 0
+  - obstacleType: 0
+    obstaclePrefab:
+      m_AssetGUID: ObstacleWheelyBin
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 00000000
+    spawnDistance: 18
+    groupCount: 1
+    groupSeparation: 0
+  - obstacleType: 3
+    obstaclePrefab:
+      m_AssetGUID: ObstacleRoadworksCone
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 000000000100000002000000
+    spawnDistance: 28
+    groupCount: 1
+    groupSeparation: 0
+  - obstacleType: 2
+    obstaclePrefab:
+      m_AssetGUID: ObstacleHighBarrier
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 000000000100000002000000
+    spawnDistance: 40
+    groupCount: 1
+    groupSeparation: 0

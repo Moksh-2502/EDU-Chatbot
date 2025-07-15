@@ -1,0 +1,38 @@
+{
+  "targetStepType": "LeftRightSwipe",
+  "sequenceName": "Comprehensive Movement Training",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrashCan",
+      "obstaclePrefabAddress": "ObstacleBin",
+      "blockedLanes": [2],
+      "spawnDistance": 10.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    },
+    {
+      "obstacleType": "TrashCan", 
+      "obstaclePrefabAddress": "ObstacleWheelyBin",
+      "blockedLanes": [0],
+      "spawnDistance": 18.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    },
+    {
+      "obstacleType": "TrafficCone",
+      "obstaclePrefabAddress": "ObstacleRoadworksCone",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 28.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    },
+    {
+      "obstacleType": "HighBarrier",
+      "obstaclePrefabAddress": "ObstacleHighBarrier",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 40.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    }
+  ]
+} 

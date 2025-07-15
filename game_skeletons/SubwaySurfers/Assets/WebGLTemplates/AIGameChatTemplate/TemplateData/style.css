@@ -1,0 +1,69 @@
+body { 
+  padding: 0; 
+  margin: 0; 
+  overflow: hidden;
+  background: #231F20;
+}
+
+#unity-container { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#unity-canvas { 
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: {{{ BACKGROUND_COLOR }}};
+}
+
+#unity-loading-bar { 
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+  display: none;
+  z-index: 1000;
+}
+
+#unity-logo { 
+  width: 154px; 
+  height: 130px; 
+  background: url('unity-logo-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center;
+}
+
+#unity-progress-bar-empty { 
+  width: 141px; 
+  height: 18px; 
+  margin-top: 10px; 
+  margin-left: 6.5px; 
+  background: url('progress-bar-empty-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center;
+}
+
+#unity-progress-bar-full { 
+  width: 0%; 
+  height: 18px; 
+  margin-top: 10px; 
+  background: url('progress-bar-full-{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}.png') no-repeat center;
+}
+
+#unity-warning { 
+  position: absolute; 
+  left: 50%; 
+  top: 5%; 
+  transform: translate(-50%); 
+  background: white; 
+  padding: 10px; 
+  display: none;
+  z-index: 1001;
+}
+
+/* Safari browser controls offset - only for Safari browsers */
+#unity-container.safari-browser {
+  /* Use safe area insets for modern Safari with notch support */
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+  height: calc(100vh - env(safe-area-inset-bottom, 20px));
+}

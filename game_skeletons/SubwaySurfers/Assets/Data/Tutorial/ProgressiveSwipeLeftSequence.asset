@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f3f59a8ed5e7d4a95257af95b1063c, type: 3}
+  m_Name: ProgressiveSwipeLeftSequence
+  m_EditorClassIdentifier: 
+  targetStepType: 1
+  sequenceName: Progressive Left Movement
+  obstacleGroups:
+  - obstacleType: 0
+    obstaclePrefab:
+      m_AssetGUID: 22facfbe232a90b45b681c638f2e490d
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 02000000
+    spawnDistance: 12
+    groupCount: 1
+    groupSeparation: 0
+  - obstacleType: 0
+    obstaclePrefab:
+      m_AssetGUID: 22facfbe232a90b45b681c638f2e490d
+      m_SubObjectName: 
+      m_SubObjectGUID: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    blockedLanes: 0100000002000000
+    spawnDistance: 20
+    groupCount: 2
+    groupSeparation: 5

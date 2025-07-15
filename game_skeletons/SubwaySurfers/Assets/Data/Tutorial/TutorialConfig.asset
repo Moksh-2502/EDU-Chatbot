@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8508180fc14f7f478ddc49b091fb78d, type: 3}
+  m_Name: TutorialConfig
+  m_EditorClassIdentifier: 
+  <Version>k__BackingField: 1.0.0
+  allowSkipping: 1
+  allowRestarting: 0
+  stepTransitionDelay: 1
+  steps:
+  - stepType: 7
+    stepName: Tutorial Start
+    instructionsMobile: Let's learn how to play
+    instructionsDesktop: Let's learn how to play
+    instructionAudioMobile: {fileID: 8300000, guid: 4ecea100125566f43a3436a0cbb7063b,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: 4ecea100125566f43a3436a0cbb7063b,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 2
+    uiObject: {fileID: 0}
+  - stepType: 1
+    stepName: Swipe Left
+    instructionsMobile: Swipe left to move left
+    instructionsDesktop: Press A or left arrow to move left
+    instructionAudioMobile: {fileID: 8300000, guid: f972543c794af094c9a7bb957daefc14,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: ea00610607b3d9c4c8d9450a77ee9433,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 3
+    uiObject: {fileID: 2665440957964913362, guid: 3b67bf61265a84144b8c0586a4a2fc0a,
+      type: 3}
+  - stepType: 2
+    stepName: Swipe Right
+    instructionsMobile: Swipe right to move right
+    instructionsDesktop: Press D or right arrow to move right
+    instructionAudioMobile: {fileID: 8300000, guid: 5ed4818642b57da478741e79a702b803,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: 11d3ab2613a9c8546bd3bc32fd6cbbbb,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 3
+    uiObject: {fileID: 2665440957964913362, guid: f28e616315417944492e8ca33c9a44ac,
+      type: 3}
+  - stepType: 3
+    stepName: Jump
+    instructionsMobile: Swipe up to jump
+    instructionsDesktop: Press W or up arrow to jump
+    instructionAudioMobile: {fileID: 8300000, guid: a3bfd8121d5356b44b9e4caa3d5a0758,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: 02cf247d18a73ee429a19ea15052e55e,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 3
+    uiObject: {fileID: 2665440957964913362, guid: 6b2546aaf54e69e4ab725d5733c7312f,
+      type: 3}
+  - stepType: 4
+    stepName: Slide
+    instructionsMobile: Swipe down to slide
+    instructionsDesktop: Press S or down arrow to slide
+    instructionAudioMobile: {fileID: 8300000, guid: e64b1e3849dfb0b4e8ff7d404ef03afb,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: 13f82ac259913c54cb8203069000b550,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 3
+    uiObject: {fileID: 2665440957964913362, guid: a2d150ab0f820624083326aced5627ff,
+      type: 3}
+  - stepType: 6
+    stepName: Question Tutorial
+    instructionsMobile: Tap a button to select your answer
+    instructionsDesktop: Click a button or use arrow keys and Enter to select your
+      answer
+    instructionAudioMobile: {fileID: 8300000, guid: 410cc89bb63f1fd45a9ca801961fc4af,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: 946ebb5b27a6dd343b16b02d5eb6af09,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 2
+    uiObject: {fileID: 0}
+  - stepType: 5
+    stepName: Tutorial Complete
+    instructionsMobile: Congratulations! You've finished the tutorial
+    instructionsDesktop: Congratulations! You've finished the tutorial
+    instructionAudioMobile: {fileID: 8300000, guid: ad48f1f01b24e89429ea05791c16e602,
+      type: 3}
+    instructionAudioDesktop: {fileID: 8300000, guid: ad48f1f01b24e89429ea05791c16e602,
+      type: 3}
+    requiredSuccessfulActions: 1
+    allowSkipping: 0
+    autoCompleteDelay: 2
+    uiObject: {fileID: 0}
+  uiShowDuration: 3
+  showStepCounter: 1

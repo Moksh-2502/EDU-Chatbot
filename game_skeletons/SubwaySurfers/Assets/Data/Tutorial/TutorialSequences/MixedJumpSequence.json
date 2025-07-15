@@ -1,0 +1,22 @@
+{
+  "targetStepType": "Jump",
+  "sequenceName": "Mixed Jump Training",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrafficCone",
+      "obstaclePrefabAddress": "ObstacleRoadworksCone",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 12.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    },
+    {
+      "obstacleType": "LowBarrier",
+      "obstaclePrefabAddress": "ObstacleLowBarrier",
+      "blockedLanes": [0, 1, 2],
+      "spawnDistance": 22.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    }
+  ]
+} 

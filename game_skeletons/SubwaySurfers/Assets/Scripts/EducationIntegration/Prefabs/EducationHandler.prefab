@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &351254849587772712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7609202783851337012}
+  - component: {fileID: -5037740256247086300}
+  - component: {fileID: -6816662896110065321}
+  - component: {fileID: 1036803766434911030}
+  - component: {fileID: 670898564426929680}
+  - component: {fileID: 7063400869999223247}
+  - component: {fileID: 3486397643761003824}
+  - component: {fileID: 4338441254490947423}
+  - component: {fileID: 2526251027499509295}
+  - component: {fileID: 971641571583409285}
+  m_Layer: 0
+  m_Name: EducationHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7609202783851337012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6576606230776038366}
+  - {fileID: 1801599526492670259}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5037740256247086300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c14e0250321092b4699e672e829d2db1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fluencySDKConfigDescriptor: {fileID: 11400000, guid: fc44f2a7c318bb948895ff1ea4c1fad9,
+    type: 2}
+  fluencyAudioConfig: {fileID: 11400000, guid: 98b8732165b01e242a5d1ba02f624f90, type: 2}
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+--- !u!114 &-6816662896110065321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e4118579164e1eb291fe4085483ccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+  <QuestionPresentationType>k__BackingField: 0
+  <Flags>k__BackingField: 7
+  <AcceptedLearningModes>k__BackingField: 01000000
+  enablePowerupDebugLogs: 0
+  powerupsPerSegment: 1
+  minDistanceFromPlayer: 15
+  supportedConsumables: 01000000020000000300000007000000
+  segmentSampleIncrement: 0.1
+  avoidanceLayerMask:
+    serializedVersion: 2
+    m_Bits: 3840
+  avoidanceRadius: 2
+--- !u!114 &1036803766434911030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b171cf4473e5a174888c9f8c0d6e5ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxDetectionDistance: 100
+  _obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  _maxHitsPerRay: 10
+  _boxCastHalfExtents: {x: 0.5, y: 1, z: 0.5}
+  _gizmoColor: {r: 0, g: 1, b: 0, a: 0.4}
+  _showGizmos: 1
+--- !u!114 &670898564426929680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3e67cd331adf542b1ba2b81c469088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shackleSound: {fileID: 8300000, guid: c7dc90dbabe4e6845b3663ad14754e77, type: 3}
+  failedAttemptShakeTransform: {fileID: 0}
+  shakeAmount: 0.1
+  shakeDuration: 0.5
+  scaleUpAmount: 1
+--- !u!114 &7063400869999223247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a3889f7a9bacf4f9516c891915e40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+  <QuestionPresentationType>k__BackingField: 2
+  <Flags>k__BackingField: 1
+  <AcceptedLearningModes>k__BackingField: 00000000
+  enableAnswerObjectDebugLogs: 0
+  answerPrefab:
+    m_AssetGUID: afb65f28f3cbfa342a6bd3c17c7c45b6
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  minDistanceBetweenAnswers: 7.55
+  randomAdditionalDistance: 5
+  firstAnswerTimeToAnswerMultiplier: 1
+  minDistanceFromPlayer: 20
+  autoAnswerMissDistance: 5
+  clearanceRadius: 3
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  collectibleLayerMask:
+    serializedVersion: 2
+    m_Bits: 1280
+  dynamicMinDistance: 8
+  dynamicMaxDistance: 25
+  obstacleClearanceBuffer: 5
+--- !u!114 &3486397643761003824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c2bf63d6ef52f49831d1733edbbe16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+  <QuestionPresentationType>k__BackingField: 2
+  <Flags>k__BackingField: 1
+  <AcceptedLearningModes>k__BackingField: 02000000
+  enableFinishLineDebugLogs: 0
+  obstaclePrefab:
+    m_AssetGUID: da0dcdf2cd8e28f428bf8c88f0d1636a
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  answerObjectPrefab:
+    m_AssetGUID: afb65f28f3cbfa342a6bd3c17c7c45b6
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  fallbackObstacleSpawnDistance: 15
+  answerObjectZOffset: 0.1
+  autoAnswerMissDistance: 5
+  clearanceRadius: 5
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  collectibleLayerMask:
+    serializedVersion: 2
+    m_Bits: 1280
+--- !u!114 &4338441254490947423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2f0f776c75e5849862be93a62caa23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+  <QuestionPresentationType>k__BackingField: 0
+  <Flags>k__BackingField: 25
+  <AcceptedLearningModes>k__BackingField: 000000000100000002000000
+--- !u!114 &2526251027499509295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c36f91921f9423499c45f9f47aea40d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streakConfiguration: {fileID: 11400000, guid: 175c92f5acdbc9f41a285be4e2c79170,
+    type: 2}
+  consumableDatabase: {fileID: 11400000, guid: 5d316f81231c9964dadda0b50ca7ae6b, type: 2}
+--- !u!114 &971641571583409285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351254849587772712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167c1be4077cbb443a4a724d2b2d3275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionPresentationConfiguration: {fileID: 11400000, guid: 5ed95a8f02d037944b5e0bd50adb5a0d,
+    type: 2}
+  <QuestionPresentationType>k__BackingField: 0
+  <Flags>k__BackingField: 7
+  <AcceptedLearningModes>k__BackingField: 01000000
+--- !u!1 &5053891533759500826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801599526492670259}
+  - component: {fileID: 3602308459932726141}
+  m_Layer: 0
+  m_Name: QuestionGates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801599526492670259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5053891533759500826}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7609202783851337012}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3602308459932726141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5053891533759500826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f4691e515140f18f2a1a00990f7a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5329451633041684918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6576606230776038366}
+  - component: {fileID: 4371087912706865638}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6576606230776038366
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329451633041684918}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7609202783851337012}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4371087912706865638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5329451633041684918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d9bf7b24580904eb55daf8108e1640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  fluencyAudioConfig: {fileID: 11400000, guid: 98b8732165b01e242a5d1ba02f624f90, type: 2}
+  streakConfiguration: {fileID: 11400000, guid: 175c92f5acdbc9f41a285be4e2c79170,
+    type: 2}

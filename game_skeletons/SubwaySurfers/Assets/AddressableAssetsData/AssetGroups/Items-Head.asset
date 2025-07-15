@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items-Head
+  m_EditorClassIdentifier: 
+  m_GroupName: Items-Head
+  m_GUID: f3101abe05a2d764ca1a2e04b0fe7122
+  m_SerializeEntries:
+  - m_GUID: 438b02f78a02587439199e1b73d3cd3d
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Cap_Forward_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3b03c2d7901f048a9041925b21e3bb
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Crown_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 676b5ba7ccacd6f4da8621ba7273a8fb
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Cardboard_DragonHead_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d1c1e406b7639d45aaa05d593d0f049
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Cap_Back_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1085860d5a2b154c958746169fb8f39
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Cap_Back_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8acebfe464e12249aedb068e4e10871
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Earmuffs_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b14fb5b6c5270764ab2cff55e809e5f2
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Beanie_Large_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced3d4590f1d82942a9006eb93265a11
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Cap_Forward_02.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f90fa1b8e551dda46b0a7c244a7b420d
+    m_Address: Assets/Bundles/Items/Head/SM_Chr_Attach_Hat_Beanie_Earflaps_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8bcb775932e17e840a3b2a1d3e528e5b, type: 2}
+    - {fileID: 11400000, guid: 45256dfbfb131ff4c99470dc2431d515, type: 2}

@@ -1,0 +1,22 @@
+{
+  "targetStepType": "SwipeLeft",
+  "sequenceName": "Progressive Left Movement",
+  "obstacleGroups": [
+    {
+      "obstacleType": "TrashCan",
+      "obstaclePrefabAddress": "ObstacleBin",
+      "blockedLanes": [2],
+      "spawnDistance": 12.0,
+      "groupCount": 1,
+      "groupSeparation": 0
+    },
+    {
+      "obstacleType": "TrashCan",
+      "obstaclePrefabAddress": "ObstacleWheelyBin",
+      "blockedLanes": [1, 2],
+      "spawnDistance": 20.0,
+      "groupCount": 2,
+      "groupSeparation": 5.0
+    }
+  ]
+} 

@@ -1,0 +1,180 @@
+name: Base Deploy Game
+
+on:
+  workflow_call:
+    inputs:
+      game-skeleton:
+        description: "The game skeleton to build (e.g., SubwaySurfers, JetpackJoyride, AngryBirds)"
+        required: true
+        type: string
+      s3-bucket:
+        description: "S3 bucket name to upload the built game"
+        required: true
+        type: string
+      s3-prefix:
+        description: "S3 prefix/path for the upload (e.g., 'skeletons/SubwaySurfers' or a game ID)"
+        required: true
+        type: string
+      unity-version:
+        description: "Unity version to use for building"
+        required: false
+        type: string
+        default: "6000.0.19f1"
+      aws-role:
+        description: "AWS role ARN for S3 upload"
+        required: false
+        type: string
+        default: "arn:aws:iam::856284715153:role/GithubActionsOidcCdkDeployRole"
+      aws-region:
+        description: "AWS region for S3"
+        required: false
+        type: string
+        default: "us-east-1"
+      sentry-environment:
+        description: "Sentry environment (dev for ephemeral builds, production for deploy builds)"
+        required: true
+        type: string
+      build-id:
+        description: "Build ID (PR number for ephemeral builds, 'main' for deploy builds)"
+        required: true
+        type: string
+      run_tests:
+        description: "Whether to run Unity tests before building"
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-22.04-64core
+    permissions:
+      contents: read
+      id-token: write
+    outputs:
+      s3-path: ${{ steps.upload.outputs.s3-path }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: ./game_skeletons/${{ inputs.game-skeleton }}/Library
+          key: unity-library-${{ runner.os }}-${{ inputs.game-skeleton }}-${{ hashFiles(format('./game_skeletons/{0}/Assets/**', inputs.game-skeleton), format('./game_skeletons/{0}/Packages/**', inputs.game-skeleton), format('./game_skeletons/{0}/ProjectSettings/**', inputs.game-skeleton)) }}
+          restore-keys: |
+            unity-library-${{ runner.os }}-${{ inputs.game-skeleton }}-
+            unity-library-${{ runner.os }}-
+            unity-library-
+
+      - name: Run Unity Tests
+        if: inputs.run_tests
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          projectPath: ./game_skeletons/${{ inputs.game-skeleton }}
+          unityVersion: ${{ inputs.unity-version }}
+          testMode: EditMode
+
+      - name: Clean up dirty files after tests
+        if: inputs.run_tests
+        run: |
+          echo "Checking for dirty files after test run..."
+          
+          # Check git status
+          git status --porcelain
+          
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "Found dirty files. Showing diffs:"
+            echo "=================================="
+            
+            # Show diffs for modified files
+            git diff --name-only | while read file; do
+              if [[ "$file" == *"FluencySDK/Fonts/LuckiestGuy-Regular SDF.asset" ]]; then
+                echo "Skipping diff for problematic file: $file"
+              else
+                echo "Diff for: $file"
+                echo "-------------------"
+                git diff "$file"
+                echo ""
+              fi
+            done
+            
+            # Show untracked files
+            if [[ -n $(git ls-files --others --exclude-standard) ]]; then
+              echo "Untracked files:"
+              git ls-files --others --exclude-standard
+              echo ""
+            fi
+            
+            echo "Reverting all changes..."
+            # Revert all tracked file changes
+            git checkout -- .
+            
+            # Handle artifacts directory separately due to permission issues
+            if [ -d "artifacts" ]; then
+              echo "Attempting to remove artifacts directory..."
+              # Try to change permissions first
+              sudo chmod -R 777 artifacts/ 2>/dev/null || true
+              # Remove the directory
+              sudo rm -rf artifacts/ 2>/dev/null || {
+                echo "Could not remove artifacts directory, attempting to clear it for git..."
+                # If we can't remove it, at least try to make it empty
+                sudo find artifacts/ -type f -delete 2>/dev/null || true
+              }
+            fi
+            
+            # Remove other untracked files and directories
+            git clean -fd --exclude=artifacts/ 2>/dev/null || {
+              echo "Some files could not be removed, attempting manual cleanup..."
+              git ls-files --others --exclude-standard | grep -v "^artifacts/" | while read file; do
+                rm -rf "$file" 2>/dev/null || echo "Could not remove: $file"
+              done
+            }
+            
+            echo "Repository cleaned. Current status:"
+            git status --porcelain
+          else
+            echo "No dirty files found."
+          fi
+
+      - name: Build Unity Game
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: WebGL
+          projectPath: ./game_skeletons/${{ inputs.game-skeleton }}
+          unityVersion: ${{ inputs.unity-version }}
+          buildMethod: UnityBuilderAction.BuildScript.Build
+          customParameters: -sentryEnvironment ${{ inputs.sentry-environment }} -buildId ${{ inputs.build-id }}
+
+      - name: Log Unity build output
+        run: ls -R ./build/WebGL/WebGL/
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ inputs.aws-role }}
+          aws-region: ${{ inputs.aws-region }}
+
+      - name: Upload skeleton manifest to S3
+        run: |
+          aws s3 cp ./game_skeletons/${{ inputs.game-skeleton }}/skeleton-manifest.json \
+            s3://${{ inputs.s3-bucket }}/${{ inputs.s3-prefix }}/skeleton-manifest.json
+
+      - name: Upload game build to S3
+        id: upload
+        run: |
+          # Upload the entire WebGL build directly from Unity output
+          aws s3 sync ./build/WebGL/WebGL/ \
+            s3://${{ inputs.s3-bucket }}/${{ inputs.s3-prefix }}/dist/ \
+            --delete
+
+          # Output the S3 path for reference
+          echo "s3-path=s3://${{ inputs.s3-bucket }}/${{ inputs.s3-prefix }}" >> $GITHUB_OUTPUT
+
+          echo "Game uploaded to: s3://${{ inputs.s3-bucket }}/${{ inputs.s3-prefix }}/"

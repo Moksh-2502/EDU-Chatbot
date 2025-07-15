@@ -1,0 +1,30 @@
+{
+    "name": "FluencySDK.Tests",
+    "rootNamespace": "FluencySDK.Tests",
+    "references": [
+        "FluencySDK.Runtime",
+        "Unity.Addressables",
+        "UniTask",
+        "UnityEngine.TestRunner",
+        "DOTween.Modules",
+        "SharedCore.Runtime",
+        "UnityReactBridge.Runtime",
+        "SharpShuffleBag.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Moq.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

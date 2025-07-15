@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33b0e13388c401c93db9a350e0098ca, type: 3}
+  m_Name: RewardsConfig
+  m_EditorClassIdentifier: 
+  <InfiniteRewardsCheat>k__BackingField: 0
+  <Rewards>k__BackingField:
+  - <Id>k__BackingField: FactSetRewardClaim_0-1
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 656cd492f4f7f0f42b62c762d62dd91e, type: 2}
+    - {fileID: 11400000, guid: a8deb1a209bd6dd47b3bbfffc48a9aeb, type: 2}
+    - {fileID: 11400000, guid: f1fcaf693a7364f489868ec57fcd6710, type: 2}
+    - {fileID: 11400000, guid: 408b7d18db855ae47acd1468eaf94fa1, type: 2}
+    - {fileID: 11400000, guid: 17a974119966c0240ac93dc8e35df0e3, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_10
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 17159b53cfa01154a8f66fa9b3143508, type: 2}
+    - {fileID: 11400000, guid: db08e1a54e1714d44a484fecc2eac45b, type: 2}
+    - {fileID: 11400000, guid: 1221fe5e70fa2604787569b9bd39c3dc, type: 2}
+    - {fileID: 11400000, guid: 97ffdd331c918694eaa2c726c7435928, type: 2}
+    - {fileID: 11400000, guid: 3e40e3f0ce6409e47ab4217f10757516, type: 2}
+    - {fileID: 11400000, guid: 17ccd167532d99240b87b38bd63e8129, type: 2}
+    - {fileID: 11400000, guid: 9a353b290c41bda4d8b363bfdd965403, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_5
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 0c57ef4fbee44714f9f1998c792219ce, type: 2}
+    - {fileID: 11400000, guid: fa8babc7a8ca0ac48b9800460d850a3a, type: 2}
+    - {fileID: 11400000, guid: 0446a95d3295e0d4ca390ee812045ea8, type: 2}
+    - {fileID: 11400000, guid: 620fbd2007060d84d9ce6e1eee381143, type: 2}
+    - {fileID: 11400000, guid: ccdc7245f0968364ca0b7d71fd44d457, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_2
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 040bd5c37c3ee8f4ea53ac7b6143bee9, type: 2}
+    - {fileID: 11400000, guid: bf3b36f64a130af46a0ff30b87532d56, type: 2}
+    - {fileID: 11400000, guid: 99c964f6fd9fe81438e5141f7357e3f3, type: 2}
+    - {fileID: 11400000, guid: e57e3b6088f32aa4cb66f0cffecdc670, type: 2}
+    - {fileID: 11400000, guid: 09045e0fdcba5c34895cf0a5652188b0, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_4
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: e858a60a818817648b7e45c14b78dac8, type: 2}
+    - {fileID: 11400000, guid: f32de84b046cf6f4095b8030031e0dca, type: 2}
+    - {fileID: 11400000, guid: 27ee5e412f457e642a21d8e2c2e7de1a, type: 2}
+    - {fileID: 11400000, guid: e50ff6f96c850594b93b916cca2533eb, type: 2}
+    - {fileID: 11400000, guid: 4c19f264e82c6f64d8b9973754a17e74, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_8
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 146d16d43d082994f8880a87e4f6e691, type: 2}
+    - {fileID: 11400000, guid: 80af51c93e8233c429aab7782fded733, type: 2}
+    - {fileID: 11400000, guid: ff45e5f11ec3d344fa9a0f2580d0d6f3, type: 2}
+    - {fileID: 11400000, guid: e9a742d3b18d7594a8d0164b91899d1c, type: 2}
+    - {fileID: 11400000, guid: ff78f7f88bbcc194e820d4cb54a3010f, type: 2}
+    - {fileID: 11400000, guid: 81faa76f230be364abc845f9897d1a67, type: 2}
+    - {fileID: 11400000, guid: 574f4daabc13a854f843faf0fdcb7417, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_9
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 20de21168eea853419307c0b71c9d44c, type: 2}
+    - {fileID: 11400000, guid: 07fb980ee94104342affa6bcb062db8e, type: 2}
+    - {fileID: 11400000, guid: aa50386408fc9934bb8909f0fed81f4b, type: 2}
+    - {fileID: 11400000, guid: 345ddf74a9167094ca6630d487be6c01, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_3
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 158d40b729ea90d468227b669cae6c7b, type: 2}
+    - {fileID: 11400000, guid: 6f69af91c71657f4cb392a3c65066d4e, type: 2}
+    - {fileID: 11400000, guid: d5caf41e709e332429d1fecd70841fac, type: 2}
+    - {fileID: 11400000, guid: 983a010e7558cf7439d447141f5332bf, type: 2}
+    - {fileID: 11400000, guid: bd6d28bfecab5704ba882b19b1083278, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_6
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: 26a207a816d38c64296067791d7b06eb, type: 2}
+    - {fileID: 11400000, guid: 45ea2db14ed49fc43b410bef01f12b42, type: 2}
+    - {fileID: 11400000, guid: d844b68a065e108438170c1092bb4ef2, type: 2}
+  - <Id>k__BackingField: FactSetRewardClaim_7
+    <Items>k__BackingField:
+    - {fileID: 11400000, guid: b33ffcf17700ac0449ac7d7a9f96fc8e, type: 2}
+    - {fileID: 11400000, guid: 94e04c7579920ae46840dd37225d2aed, type: 2}
+    - {fileID: 11400000, guid: 9e29386e0d40ef746bfa509df9115033, type: 2}
+    - {fileID: 11400000, guid: a53c080dc0f78cf4fb4cfefc283bb31a, type: 2}
+    - {fileID: 11400000, guid: ed213abe90bb54f4ea0fe338161e6526, type: 2}
+    - {fileID: 11400000, guid: e38fcaa954050b740b851f9715162d8e, type: 2}
+    - {fileID: 11400000, guid: 35404f7762f64e743951ee172d155c43, type: 2}
+    - {fileID: 11400000, guid: 2145be045640cbb45b047c546c938af3, type: 2}
+    - {fileID: 11400000, guid: cafb52f73cf62be4a9ea080a08b98399, type: 2}

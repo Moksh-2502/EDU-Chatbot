@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Bag Bear
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: b9c4f7fe-7f4f-4365-8be6-453eb0440877
+  <Name>k__BackingField: Bear Bag
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 2
+  <Icon>k__BackingField: {fileID: 21300000, guid: bbcd558a7749c8647a536ece1dd4f1c2,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: a2ba365b8dc6a4c4181209e497fbcad0
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

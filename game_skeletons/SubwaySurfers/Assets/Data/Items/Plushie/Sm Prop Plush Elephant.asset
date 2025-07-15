@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Sm Prop Plush Elephant
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: b20f0cf0-7f7d-48b4-a328-d80aa39ff021
+  <Name>k__BackingField: Plush Elephant
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 3
+  <Icon>k__BackingField: {fileID: 21300000, guid: 41cbfc99ea33c6c45a645edbe396134b,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: 03494fbaed02ec2428d49d0e015737a5
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

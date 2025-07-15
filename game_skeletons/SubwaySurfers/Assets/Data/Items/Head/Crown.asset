@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef991485da4549acb0a75a2ccee28ac9, type: 3}
+  m_Name: Crown
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 069bf26d-fd8f-4824-b0fd-d3a7eea1d4fd
+  <Name>k__BackingField: Crown
+  <ItemType>k__BackingField: 1
+  <EquipSlot>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 21300000, guid: 80c6a973c4da96d41a96bcc16faf30e0,
+    type: 3}
+  <Item>k__BackingField:
+    m_AssetGUID: 5a3b03c2d7901f048a9041925b21e3bb
+    m_SubObjectName: 
+    m_SubObjectGUID: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

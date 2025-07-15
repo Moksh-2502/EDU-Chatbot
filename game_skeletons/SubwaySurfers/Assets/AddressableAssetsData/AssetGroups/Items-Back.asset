@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Items-Back
+  m_EditorClassIdentifier: 
+  m_GroupName: Items-Back
+  m_GUID: 9801c8cc77b320b4c82be408f284da09
+  m_SerializeEntries:
+  - m_GUID: 18440c221532f2341a7b9e0879a5babe
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Small_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 191c6b56d3a616541929369bdead1e9e
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Pug_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a5726337e106b4458d2b651e096504b
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Camping_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ef49e738c6ff124eb9e9135fd0e3695
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Scout_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e91be69d23aa03458f61ae6f4d822bb
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Round_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 859b14f7217b02441b0c42b39ef217a2
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Large_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ba365b8dc6a4c4181209e497fbcad0
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Bear_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a34f9b88679eabc4ca5d1b58e96a93fb
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Square_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc3cacc6b472df44680c687c84c09d59
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Bird_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceef4597cbde9714fbcf063727dd7834
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_School_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db07960fb15f0ce4db82f2dea7865fed
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Straps_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea64255a99faeb545bb61b9ddcdd8583
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Backpack_Spacesuit_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec01d4ab3d86e8c4b99ee870b47b5c2d
+    m_Address: Assets/Bundles/Items/Back/SM_Chr_Attach_Bag_Bee_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fe33caed6008273459ad6262284868b0, type: 2}
+    - {fileID: 11400000, guid: 5ab7c4fff674d904abdec84a1b264783, type: 2}
